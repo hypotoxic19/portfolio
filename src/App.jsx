@@ -59,7 +59,7 @@ const AboutModal = ({ onClose }) => (
 const App = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [aboutModalOpen, setAboutModalOpen] = useState(false);
-
+  const [menuOpen, setMenuOpen] = useState(false);
   useEffect(() => {
     let index = 0;
     const interval = setInterval(() => {
@@ -97,24 +97,42 @@ const App = () => {
       
     </div>
 
-        <header className="hero">
-          <nav className="navbar">
-            <ul className="nav-links">
-              <li><a href="#home" className="nav-btn">Home</a></li>
-              <li>
+    <header className="hero">
+      <nav className="navbar">
+        <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+          ☰
+        </div>
+        <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
+          <li><a href="#home" className="nav-btn">Home</a></li>
+          <li>
             <a href="#about" className="nav-btn" onClick={(e) => {
-              e.preventDefault(); // prevent default anchor jump
+              e.preventDefault();
               setAboutModalOpen(true);
             }}>
               About
             </a>
           </li>
-              <li><a href="#projects" className="nav-btn">Projects</a></li>
-              <li><a href="#contact" className="nav-btn">Contact</a></li>
-              <li><a href="#experience" className="nav-btn">Experience</a></li>
-            </ul>
-          </nav>
-        </header>
+          <li><a href="#projects" className="nav-btn">Projects</a></li>
+          <li><a href="#contact" className="nav-btn">Contact</a></li>
+          <li><a href="#experience" className="nav-btn">Experience</a></li>
+        </ul>
+      </nav>
+
+      {/* Modal example */}
+      {aboutModalOpen && (
+        <div className="modal-overlay" onClick={() => setAboutModalOpen(false)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <img src="your-image-url.jpg" alt="Digonto" />
+            <h2>Md. Al Kayes (Digonto)</h2>
+            <p>Undergraduate Student at American International University-Bangladesh</p>
+            <p>Projects Completed: 12</p>
+            <button onClick={() => setAboutModalOpen(false)}>Close</button>
+          </div>
+        </div>
+      )}
+    </header>
+  );
+
 
         <div className="intro-container">
           <div className="sticker-container">
