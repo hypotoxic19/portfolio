@@ -54,27 +54,28 @@
   margin: 0 auto;
   margin-right: 10px;  
 }
-
+/* Navbar container */
 .navbar {
   display: flex;
   justify-content: center;
-  background-color:transparent;
+  background-color: transparent;
   padding: 10px 0;
- 
+  position: relative;
 }
 
-
-
-
+/* Nav links (default: horizontal layout) */
 .nav-links {
   display: flex;
-  gap: 70px; /* or whatever spacing you prefer */
+  gap: 70px;
   list-style: none;
   padding: 0;
 }
+
+
+/* Buttons */
 .nav-btn {
   padding: 10px 20px;
-  color: #1db954; /* Neon green */
+  color: #1db954;
   border: 2px solid #1db954;
   background-color: transparent;
   text-decoration: none;
@@ -85,10 +86,56 @@
 }
 
 .nav-btn:hover {
-  background-color: #1db95422; /* light neon glow on hover */
+  background-color: #1db95422;
   box-shadow: 0 0 20px #1db954aa, 0 0 40px #1db95477;
   color: #fff;
 }
+
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: #1db954;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+/* MOBILE STYLES */
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+}
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+      gap: 20px;
+    }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+
 
 .sticker-container {
   display: flex;
