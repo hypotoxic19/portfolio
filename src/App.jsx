@@ -180,7 +180,7 @@ const App = () => {
       
       <h3>Hell Ground</h3>
       <p>Online game</p>
-      <a href="hellground.vercel.app" target="_blank" rel="noopener noreferrer" className="visit-btn">
+      <a href="http://hellground.getenjoyment.net" target="_blank" rel="noopener noreferrer" className="visit-btn">
         Visit Site
       </a>
     </div>
