@@ -37,7 +37,7 @@ const techStack = [
   { name: "Node.js", logo: nodeLogo },
   { name: "Next.js", logo: nextLogo },
   { name: "Django", logo: djangoLogo },
-  { name: "Express", logo: express },
+  
 ];
 const AboutModal = ({ onClose }) => (
   <div className="modal-overlay" onClick={onClose}>
