@@ -15,7 +15,6 @@ import reactLogo from './assets/react.png';
 import nodeLogo from './assets/node.png';
 import nextLogo from './assets/next.png';
 import djangoLogo from './assets/django.png';
-import express from './assets/express.png';
 import aiub from './assets/aiub.png';
 
 
