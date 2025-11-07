@@ -227,9 +227,9 @@ const App = () => {
   <p className="contact-info">Feel free to reach out through any of the platforms below:</p>
   
   <div className="social-links">
-    <a href="mailto:digonto@example.com" className="social-link email">📧 Email</a>
-    <a href="https://github.com/digonto" target="_blank" className="social-link github">🐙 GitHub</a>
-    <a href="https://facebook.com/digonto" target="_blank" className="social-link facebook">📘 Facebook</a>
+    <a href="mailto:mdalkayes2003@gmail.com" className="social-link email">📧 Email</a>
+    <a href="https://github.com/hypotoxic19" target="_blank" className="social-link github">🐙 GitHub</a>
+    <a href="https://www.facebook.com/itz.hypotoxic19" target="_blank" className="social-link facebook">📘 Facebook</a>
   </div>
 </section>
 
