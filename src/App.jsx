@@ -177,7 +177,7 @@ const App = () => {
     </div>
 
     <div className="card">
-      <img src="/images/messmonitor.png" alt="Mess Monitor Web App" className="project-screenshot" />
+      
       <h3>Hell Ground</h3>
       <p>Online game</p>
       <a href="https://itzfeed.com" target="_blank" rel="noopener noreferrer" className="visit-btn">
@@ -185,37 +185,30 @@ const App = () => {
       </a>
     </div>
     <div className="card">
-      <img src="src/assets/itzfeed.PNG" alt="SkillShare Token Project" className="project-screenshot" />
-      <h3>SkillShare Token</h3>
-      <p>Ethereum-based token with gasless transfer.</p>
-      <a href="https://your-skillshare-site.com" target="_blank" rel="noopener noreferrer" className="visit-btn">
+      
+      <h3>YOLO V8 model</h3>
+      <p>An object detection model</p>
+      <a href="https://colab.research.google.com/drive/1g0QePJICpjgC0rO86GN9ACnBoE_xHF66?usp=sharing" target="_blank" rel="noopener noreferrer" className="visit-btn">
         Visit Site
       </a>
     </div>
     <div className="card">
-      <img src="src/assets/itzfeed.PNG" alt="SkillShare Token Project" className="project-screenshot" />
-      <h3>SkillShare Token</h3>
-      <p>Ethereum-based token with gasless transfer.</p>
-      <a href="https://your-skillshare-site.com" target="_blank" rel="noopener noreferrer" className="visit-btn">
+      
+      <h3>Color Detection (CV)</h3>
+      <p>Computer Vision Project</p>
+      <a href="https://colab.research.google.com/drive/1H9rrG-oIkIZSThw6wtg56EycUOGtO7kF?usp=sharing" target="_blank" rel="noopener noreferrer" className="visit-btn">
         Visit Site
       </a>
     </div>
     <div className="card">
-      <img src="src/assets/itzfeed.PNG" alt="SkillShare Token Project" className="project-screenshot" />
-      <h3>SkillShare Token</h3>
-      <p>Ethereum-based token with gasless transfer.</p>
-      <a href="https://your-skillshare-site.com" target="_blank" rel="noopener noreferrer" className="visit-btn">
+     
+      <h3>Diabetes Detection Model</h3>
+      <p>A Classification Model</p>
+      <a href="https://colab.research.google.com/drive/1hlEbdm0gu43TKYqMUZS05xnuGctV7mDU?usp=sharing" target="_blank" rel="noopener noreferrer" className="visit-btn">
         Visit Site
       </a>
     </div>
-    <div className="card">
-      <img src="src/assets/itzfeed.PNG" alt="SkillShare Token Project" className="project-screenshot" />
-      <h3>SkillShare Token</h3>
-      <p>Ethereum-based token with gasless transfer.</p>
-      <a href="https://your-skillshare-site.com" target="_blank" rel="noopener noreferrer" className="visit-btn">
-        Visit Site
-      </a>
-    </div>
+    
   </div>
 </section>
 
