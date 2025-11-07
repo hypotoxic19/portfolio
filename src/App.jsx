@@ -6,6 +6,7 @@ import './App.css';
 
 
 
+import sticker from './assets/sticker.gif';
 import profilePic from './assets/profile.jpg';
 import htmlLogo from './assets/html.png';
 import cssLogo from './assets/css.png';
