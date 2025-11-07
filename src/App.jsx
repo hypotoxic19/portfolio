@@ -169,7 +169,7 @@ const App = () => {
   <div className="projects">
     <div className="card">
       <img src="src/assets/itzfeed.PNG" alt="SkillShare Token Project" className="project-screenshot" />
-      <h3>SkillShare Token</h3>
+      <h3>Itz Feed</h3>
       <p>Ethereum-based token with gasless transfer.</p>
       <a href="https://itzfeed.com" target="_blank" rel="noopener noreferrer" className="visit-btn">
         Visit Site
@@ -178,7 +178,7 @@ const App = () => {
 
     <div className="card">
       <img src="/images/messmonitor.png" alt="Mess Monitor Web App" className="project-screenshot" />
-      <h3>Mess Monitor Web App</h3>
+      <h3>Hell Ground</h3>
       <p>Tracks meal costs, deposits, and participation.</p>
       <a href="https://itzfeed.com" target="_blank" rel="noopener noreferrer" className="visit-btn">
         Visit Site
